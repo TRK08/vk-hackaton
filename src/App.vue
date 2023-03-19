@@ -14,10 +14,13 @@ import { useAuthStore } from '@/stores/auth'
 import AppModal from '@/components/UI-kit/Modals/AppModal.vue'
 import { storeToRefs } from 'pinia'
 import { useModalStore } from '@/stores/modal'
+import { usePostsStore } from '@/stores/posts'
 
 const {authStateChange} = useAuthStore();
 const {value} = storeToRefs(useModalStore())
+const {loadPosts} = usePostsStore()
 
+loadPosts();
 onMounted(() => {
   authStateChange()
 })

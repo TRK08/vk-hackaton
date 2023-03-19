@@ -57,7 +57,7 @@ const state = reactive({
 
 <style lang='scss'>
 .instruction-modal {
-  @apply w-[500px];
+  @apply w-[700px];
 
   &__buttons {
     @apply grid grid-cols-2 items-center justify-end gap-4 mt-8 px-8 pb-4 pt-0;

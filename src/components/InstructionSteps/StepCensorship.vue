@@ -1,15 +1,16 @@
 <template>
   <steps-template>
     <template #header>
-      <div class="w-full bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 p-8 flex justify-center items-center mb-8">
+      <div class="w-full bg-gradient-to-r from-red-200 to-red-600 p-8 flex justify-center items-center mb-8">
         <h2>
           Цензура
         </h2>
       </div>
     </template>
     <template #body>
-      <p class="text-center">
-        Постарайтесь не использовать грубую и обсценную лексику.
+      <p>
+        Постарайтесь не использовать грубую и обесцененную лексику.
+        У многих людей подобная лексика вызывается негативные ассоциации. Одни не станут читать комментарий, другие вместо полемики провоцируются на оскорбления и ненависть.
       </p>
     </template>
   </steps-template>

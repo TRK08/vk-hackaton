@@ -12,7 +12,7 @@
       </div>
       <div class="card learn__item">
         <icon-instruction />
-        <h2>Попробуй написать комментарий</h2>
+        <h2>Coming soon ...</h2>
       </div>
     </div>
   </div>
